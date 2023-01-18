@@ -1,0 +1,1 @@
+@keyframes menubar_slidedown{from{transform:translateY(-70px)}to{transform:translateY(0%)}}@keyframes menubar_slideup{from{transform:translateY(0%)}to{transform:translateY(-80px)}}@keyframes template_slidedown{from{transform:translateY(-110%)}to{transform:translateY(0%)}}@keyframes template_slideup{from{transform:translateY(0%)}to{transform:translateY(-110%)}}
