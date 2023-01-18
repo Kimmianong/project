@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/project/static/css/main.e4d1fbe4.css",
+    "main.js": "/project/static/js/main.e9114c01.js",
+    "static/media/NotoSansKR-Regular.otf": "/project/static/media/NotoSansKR-Regular.e1aa54c04a18648e6468.otf",
+    "static/media/SofiaSans-Italic-VariableFont_wght.ttf": "/project/static/media/SofiaSans-Italic-VariableFont_wght.7f07f34e00962058aa3c.ttf",
+    "index.html": "/project/index.html",
+    "main.e4d1fbe4.css.map": "/project/static/css/main.e4d1fbe4.css.map",
+    "main.e9114c01.js.map": "/project/static/js/main.e9114c01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4d1fbe4.css",
+    "static/js/main.e9114c01.js"
+  ]
+}
