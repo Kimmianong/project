@@ -10,35 +10,40 @@ import Portfolio from "./routes/Portfolio";
 import Download from "./routes/Download";
 import ErrorPage from "./error-page";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      errorElement: <ErrorPage />,
+      children: [
+        {
+          index: true,
+          element: <Index />,
+        },
+        {
+          path: "/Profile",
+          element: <Profile />,
+        },
+        {
+          path: "/Notice",
+          element: <Notice />,
+        },
+        {
+          path: "/Portfolio",
+          element: <Portfolio />,
+        },
+        {
+          path: "/Download",
+          element: <Download />,
+        },
+      ],
+    },
+  ],
   {
-    path: "/project",
-    element: <App />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        index: true,
-        element: <Index />,
-      },
-      {
-        path: "/Profile",
-        element: <Profile />,
-      },
-      {
-        path: "/Notice",
-        element: <Notice />,
-      },
-      {
-        path: "/Portfolio",
-        element: <Portfolio />,
-      },
-      {
-        path: "/Download",
-        element: <Download />,
-      },
-    ],
-  },
-]);
+    basename: process.env.PUBLIC_URL,
+  }
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
